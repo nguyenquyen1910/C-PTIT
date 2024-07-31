@@ -1,0 +1,1 @@
+{"name":"Local: lietkeKptumax","url":"c:\\Users\\PC\\OneDrive\\learn c++\\Mang 1D\\lietkeKptumax.cpp","tests":[{"id":1702180491906,"input":"2\n5 3\n10 7 9 12 6\n6 2\n9 7 12 8 6 5","output":"12 10 9 \n12 9"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\PC\\OneDrive\\learn c++\\Mang 1D\\lietkeKptumax.cpp","group":"local","local":true}

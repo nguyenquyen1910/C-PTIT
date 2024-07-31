@@ -1,0 +1,1 @@
+{"name":"Local: xaunhiphan","url":"c:\\Users\\PC\\OneDrive\\learn c++\\TRAINING\\xaunhiphan.cpp","tests":[{"id":1699781643474,"input":"2\n2\n3","output":"00 01 10 11\n000 001 010 011 100 101 110 111"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\PC\\OneDrive\\learn c++\\TRAINING\\xaunhiphan.cpp","group":"local","local":true}

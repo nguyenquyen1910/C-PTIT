@@ -1,0 +1,1 @@
+{"name":"Local: ipplace","url":"c:\\Users\\PC\\OneDrive\\learn c++\\Thuc Hanh 1\\ipplace.cpp","tests":[{"id":1700854022480,"input":"2\n192.16.1.1\n256.255.255.255","output":"YES\nNO"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\PC\\OneDrive\\learn c++\\Thuc Hanh 1\\ipplace.cpp","group":"local","local":true}

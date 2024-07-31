@@ -1,0 +1,1 @@
+{"name":"Local: mindistance","url":"c:\\Users\\PC\\OneDrive\\learn c++\\Mang 1D\\mindistance.cpp","tests":[{"id":1702179891932,"input":"2\n5\n2 4 5 7 9\n10\n87 32 99 75 56 43 21 10 68 49","output":"1\n6"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\PC\\OneDrive\\learn c++\\Mang 1D\\mindistance.cpp","group":"local","local":true}

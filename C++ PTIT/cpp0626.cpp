@@ -1,0 +1,70 @@
+#include<bits/stdc++.h>
+using namespace std;
+class GiangVien{
+    public:
+        string id,name,sub,mon,ln;
+        GiangVien(){
+            id=name=sub="";
+        }
+        friend istream& operator >> (istream&,GiangVien&); 
+        friend ostream& operator << (ostream&,GiangVien); 
+        friend bool check(GiangVien,string);
+};
+int cnt=0;
+string findlastname(string s){
+    stringstream ss(s);
+    string tmp,res;
+    vector<string> v;
+    while(ss >> tmp){
+        v.push_back(tmp);
+    }
+    res=v[v.size()-1];
+    return res;
+}
+string viettat(string &s){
+    stringstream ss(s);
+    string tmp;
+    string res="";
+    while(ss >> tmp){
+        res+=toupper(tmp[0]);
+    }
+    return res;
+}
+istream& operator >> (istream& in,GiangVien& a){
+    cnt++;
+    a.id="GV"+string(2-to_string(cnt).size(),'0')+to_string(cnt);
+    getline(in,a.name);
+    a.ln=findlastname(a.name);
+    getline(in,a.sub);
+    a.mon=viettat(a.sub);
+    return in;
+}
+ostream& operator << (ostream& out,GiangVien a){
+    out << a.id << " " << a.name << " " << a.mon << endl;
+    return out;
+}
+bool check(GiangVien a,string s){
+    return s==a.mon;
+}
+int main(){
+    int n;cin>>n;
+    GiangVien a[n];
+    cin.ignore();
+    for(int i=0;i<n;i++){
+        cin>>a[i];
+    }
+    int q;cin>>q;
+    cin.ignore();
+    while(q--){
+        string s;getline(cin,s);
+        string tmp=viettat(s);
+        cout << "DANH SACH GIANG VIEN BO MON " << tmp << ":\n";
+        for(int i=0;i<n;i++){
+            if(check(a[i],tmp)){
+                cout << a[i];
+            }
+        }
+        cout << endl;
+    }
+    return 0;
+}

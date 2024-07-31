@@ -13,6 +13,7 @@ int findpos(int *a,int n,int x){
     }
     return res;
 }
+
 int main(){
     int t;cin>>t;
     while(t--){

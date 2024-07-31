@@ -28,7 +28,7 @@ void insertionsort(int a[],int n){
             j--;
         }
         a[j+1]=key;
-        cout << "Buoc " << i+1 << " : ";
+        cout << "Buoc " << i << " : ";
         for(int k=0;k<=i;k++){
            cout << a[k] << " ";
         } 

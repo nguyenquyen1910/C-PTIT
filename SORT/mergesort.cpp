@@ -1,16 +1,4 @@
-#include<iostream>
-#include<string>
-#include<sstream>
-#include<iomanip>
-#include<algorithm>
-#include<cmath>
-#include<cstdio>
-#include<cstring>
-#include<cctype>
-#include<vector>
-#include<set>
-#include<map>
-#include<climits>
+#include<bits/stdc++.h>
 using namespace std;
 void merge(int a[],int l,int m,int r){
     vector<int> x(a+l,a+m+1);
